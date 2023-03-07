@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="../IMAGES/keyworld.ico">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Keyworld - Sorteo</title>
+</head>
+<body>
+    <header>
+        <section class="logoBanner">
+            <div class="promocion">
+                <h3>
+                    Find your own Key!
+                    <img src="../IMAGES/Logo.png" alt="Logo">
+                </h3>
+            </div>
+        </section>
+        <nav>
+			<ul class="menu">
+                <a href="../index.html"><h1>Keyworld</h1></a>
+			    <li class="item"><a href="teclados60.html">Teclados 60%</a></li>
+			    <li class="item"><a href="teclados65.html">Teclados 65%</a>
+			    <li class="item"><a href="teclados75.html">Teclados 75%</a></li>
+                <li class="item"><a href="tecladostkl.html">Teclados TKL</a></li>
+                <li class="item"><a href="tecladosfz.html">Teclados FZ</a></li>
+			</ul> 
+		</nav>
+    </header>
+    <main>
+        <form action="https://docs.google.com/spreadsheets/d/1huK_KLFWDLAIOfmZM7huH1qRzqQ3BInPdCNA8XP9pnM/edit#gid=0">
+            <section class="formulario">
+              <fieldset>
+                <legend class="form_title">Envíe su mensaje</legend>
+                <div class="nombre_form">
+                  <label for="nombre">Nombre:</label>
+                  <input type="text" name="nombre" />
+                </div>
+                <div class="apellido_form">
+                  <label for="apellido">Apellido:</label>
+                  <input type="text" name="apellido"/>
+                </div>
+              </div>
+              <div class="edad_form">
+                <label for="edad">Edad:</label>
+                <input type="text" name="edad"/>
+              </div>
+              <div class="edad_form">
+                <label for="mail">Correo electrónico:</label>
+                <input type="mail" name="mail"/>
+              </div>
+          
+                  <p>¿Que teclado deseas obtener?
+                    <select name="letra" id="letra">
+                      <option value="blank"></option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                    </select>
+                  </p>
+                <div>
+                  <label for="mensaje">Mensaje:</label>
+                  <textarea name="mensaje" id="ms" cols="30" rows="10"></textarea>
+                </div>
+                <input type="submit" value="Enviar" />
+                <input type="reset" value="Borrar" />
+              </fieldset>
+            </section>
+          </form>
+    </main>
+    <footer>
+      <hr>
+      <section class="sorteo_box">
+          <h3>
+              SORTEO POR INAUGURACIÓN
+          </h3>
+          <p>
+              Llenando el formulario puedes participar por un teclado a elección entre los mostrados a continuación.
+              Suerte para todos!
+          </p>
+          <img class="premio" src="../IMAGES/premio1.jpg" alt="premio1">
+          <img class="premio" src="../IMAGES/premio2.jpg" alt="premio2">
+          <img class="premio" src="../IMAGES/premio3.jpg" alt="premio3">
+          <img class="premio" src="../IMAGES/premio4.jpg" alt="premio4">
+          <img class="premio" src="../IMAGES/premio5.jpg" alt="premio5">
+          <img class="premio" src="../IMAGES/premio6.jpg" alt="premio6">
+      </section>
+      <h4 class="redes">
+          Visitanos en nuestras redes sociales
+      </h4>
+  </footer>
+</body>
